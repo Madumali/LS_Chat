@@ -7,7 +7,7 @@ const corsOptions = require("./config/corsOptions");
 
 ///Routes
 
-const stockRoutes = require("./api/stock/stock.controller");
+const stockRoutes = require("./api/stock/stock.controllek");
 const chatRoutes = require("./api/chat/chat.controller");
 
 app.use(morgan("dev"));
